@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- ============================================================
+       SEO — edit title / description here
+       ============================================================ -->
+  <title>Styled by Grace | Home Styling &amp; Room Makeovers</title>
+  <meta name="description" content="Styled by Grace – Home Styling &amp; Room Makeovers in Sydney &amp; Surrounds. Décor sourcing, short-stay styling and styling consultations — beautiful rooms, realistic budgets.">
+  <meta name="theme-color" content="#FBF7F2">
+
+  <!-- Open Graph / social. NOTE: once the site is live, change og:image to its full https:// URL
+       (e.g. https://YOUR-NAME.github.io/YOUR-REPO/assets/img/living-room.jpg) so link previews show the photo. -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_AU">
+  <meta property="og:site_name" content="Styled by Grace">
+  <meta property="og:title" content="Styled by Grace | Home Styling &amp; Room Makeovers">
+  <meta property="og:description" content="Thoughtfully styled homes for everyday living across Sydney &amp; Surrounds — room makeovers, home styling, décor sourcing and short-stay styling on realistic budgets.">
+  <meta property="og:image" content="assets/img/living-room.jpg">
+  <meta property="og:image:alt" content="Softly styled living room with a cream sofa, blush cushions and a round timber coffee table">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Styled by Grace | Home Styling &amp; Room Makeovers">
+  <meta name="twitter:description" content="Beautiful spaces. A happier you. Room makeovers, home styling, décor sourcing and short-stay styling across Sydney &amp; Surrounds.">
+
+  <!-- Without JavaScript the enquiry form can't work, so hide it and show the phone number instead -->
+  <noscript><style>#enquiryForm { display: none; }</style></noscript>
+
+  <link rel="icon" type="image/png" href="assets/img/favicon.png">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+
+  <!-- Fonts: Cormorant Garamond (editorial headlines), Jost (body/UI), Mrs Saint Delafield (script accent only) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@400;500;600&family=Mrs+Saint+Delafield&display=swap">
+
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Adds .js to <html> so reveal animations only apply when JavaScript is running -->
+  <script>document.documentElement.classList.add('js');</script>
+
+  <!-- Local business structured data (only facts supplied by the client) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Styled by Grace – Home Styling & Room Makeovers",
+    "alternateName": "Styled by Grace",
+    "description": "Home styling, room makeovers, décor sourcing, short-stay styling and styling consultations in Sydney & Surrounds.",
+    "slogan": "Beautiful spaces. A happier you.",
+    "telephone": "+61468359978",
+    "areaServed": { "@type": "AdministrativeArea", "name": "Sydney & Surrounds, New South Wales, Australia" },
+    "address": { "@type": "PostalAddress", "addressRegion": "NSW", "addressCountry": "AU" },
+    "makesOffer": [
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Room makeovers" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Home styling" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Furniture & décor styling" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Décor sourcing" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Short-stay styling" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Styling consultation" } }
+    ]
+  }
+  </script>
+</head>
+
+<body id="top">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============================================================
+       HEADER — compacts + gains a background after scrolling (script.js)
+       ============================================================ -->
+  <header class="site-header" id="siteHeader">
+    <div class="container site-header__inner">
+      <a class="brand" href="#top">
+        <img class="brand__logo" src="assets/img/logo.png" alt="Styled by Grace – Home Styling &amp; Room Makeovers" width="282" height="420">
+      </a>
+
+      <nav class="nav" id="primaryNav" aria-label="Primary">
+        <ul class="nav__list">
+          <li><a href="#top" data-spy="top">Home</a></li>
+          <li><a href="#about" data-spy="about">About</a></li>
+          <li><a href="#services" data-spy="services">Services</a></li>
+          <li><a href="#portfolio" data-spy="portfolio">Portfolio</a></li>
+          <li><a href="#process" data-spy="process">Process</a></li>
+          <li><a href="#faq" data-spy="faq">FAQs</a></li>
+          <li><a href="#contact" data-spy="contact">Contact</a></li>
+        </ul>
+        <!-- Only shown inside the mobile menu -->
+        <div class="nav__mobile-cta">
+          <a class="btn btn--primary btn--block" href="#contact" data-project="Styling consultation">Book a Styling Consultation</a>
+          <a class="nav__phone" href="tel:+61468359978">Or call 0468 359 978</a>
+        </div>
+      </nav>
+
+      <a class="btn btn--primary btn--sm header-cta" href="#contact" data-project="Styling consultation">Enquire Now</a>
+
+      <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="primaryNav">
+        <span class="menu-toggle__label visually-hidden">Menu</span>
+        <span class="menu-toggle__bars" aria-hidden="true"><span></span><span></span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============================================================
+         HERO
+         ============================================================ -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero__grid">
+
+        <div class="hero__copy">
+          <p class="eyebrow reveal">Home styling &amp; room makeovers · Sydney &amp; Surrounds</p>
+          <h1 class="hero__title reveal" id="hero-title">
+            Beautiful spaces.
+            <span class="hero__title-accent">A happier you.</span>
+          </h1>
+          <p class="hero__lead reveal">Thoughtfully styled homes for everyday living — beautiful, comfortable and achievable without a major renovation.</p>
+
+          <div class="hero__actions reveal">
+            <a class="btn btn--primary" href="#contact" data-project="Styling consultation">Book a Styling Consultation</a>
+            <a class="btn btn--ghost" href="#services">Explore Our Services</a>
+          </div>
+
+          <!-- Who it's for — answers "is this for me?" in the first screen -->
+          <p class="hero__for reveal">
+            <span>Homeowners</span><span>Renters</span><span>Sellers</span><span>Short-stay hosts</span>
+          </p>
+        </div>
+
+        <div class="hero__media reveal reveal--delay">
+          <div class="hero__arch">
+            <img src="assets/img/living-room.jpg" width="1086" height="1252"
+                 alt="Softly styled living room with a cream sofa, blush cushions, a round timber coffee table and a white vase of greenery"
+                 fetchpriority="high">
+          </div>
+          <div class="hero__inset">
+            <img src="assets/img/bedroom.jpg" width="952" height="564"
+                 alt="Calm bedroom with white linen, a blush knit throw and a timber bedside table">
+          </div>
+          <p class="hero__stamp"><span>Beautiful rooms.<br>Realistic budgets.</span></p>
+        </div>
+
+      </div>
+      <a class="scroll-cue" href="#about" aria-label="Scroll to introduction"><span></span></a>
+    </section>
+
+    <!-- Brand values band -->
+    <div class="band" aria-label="Our values">
+      <ul class="band__list">
+        <li>Style</li><li>Comfort</li><li>Function</li><li>Home</li>
+      </ul>
+    </div>
+
+    <!-- ============================================================
+         ABOUT / BRAND INTRODUCTION
+         ============================================================ -->
+    <section class="section intro" id="about" aria-labelledby="about-title">
+      <div class="container intro__grid">
+        <div class="intro__head reveal">
+          <p class="eyebrow">Our philosophy</p>
+          <h2 class="display" id="about-title">Beautiful rooms. <span class="script">Realistic budgets.</span></h2>
+          <p class="intro__lead">You don’t need a major renovation to transform your home. Styled by Grace creates beautiful, comfortable spaces through thoughtful styling, clever furniture placement and carefully selected décor.</p>
+        </div>
+
+        <div class="intro__body reveal">
+          <!-- "You don't need / You do need" — the core message as a typographic device -->
+          <div class="notbut">
+            <div class="notbut__col notbut__col--not">
+              <p class="label">You don’t need</p>
+              <ul>
+                <li><s>A major renovation</s></li>
+                <li><s>Expensive new furniture</s></li>
+                <li><s>A complete home redesign</s></li>
+              </ul>
+            </div>
+            <div class="notbut__col notbut__col--yes">
+              <p class="label">You do need</p>
+              <ul>
+                <li>Furniture placed with intent</li>
+                <li>Colour that feels like you</li>
+                <li>Texture, layered with care</li>
+                <li>Décor chosen to earn its place</li>
+              </ul>
+            </div>
+          </div>
+
+          <p class="intro__note">The right styling can change how a room looks, feels and works — using more of what you already own and a lot less of what you don’t.</p>
+          <a class="link-arrow" href="#process">See How It Works <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SERVICES — six services from the brand flyer
+         data-project on each "Learn more" pre-selects the enquiry form
+         ============================================================ -->
+    <section class="section services" id="services" aria-labelledby="services-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <p class="eyebrow">Our services</p>
+            <h2 class="display" id="services-title">Styling for every room, <em>every budget</em></h2>
+          </div>
+          <p class="section-head__aside">From a single tired room to a whole-home refresh. Not sure what you need? Start with a consultation and we’ll work it out together.</p>
+        </div>
+
+        <div class="services__grid">
+
+          <article class="svc svc--blush reveal">
+            <span class="svc__no" aria-hidden="true">01</span>
+            <span class="svc__icon" aria-hidden="true">
+              <svg viewBox="0 0 32 32"><path d="M7 14v-2a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4v2"/><path d="M4 17a2 2 0 0 1 4 0v3h16v-3a2 2 0 0 1 4 0v7H4z"/><path d="M8 24v2M24 24v2"/></svg>
+            </span>
+            <h3 class="svc__title">Room Makeovers</h3>
+            <p class="svc__text">Refresh tired or uninspiring spaces into rooms you’re proud of — without starting from scratch.</p>
+            <a class="svc__link" href="#contact" data-project="Room makeover">Learn more <span aria-hidden="true">→</span><span class="visually-hidden"> about room makeovers</span></a>
+          </article>
+
+          <article class="svc svc--ivory reveal">
+            <span class="svc__no" aria-hidden="true">02</span>
+            <span class="svc__icon" aria-hidden="true">
+              <svg viewBox="0 0 32 32"><rect x="5" y="6" width="22" height="20" rx="1.5"/><circle cx="12" cy="13" r="2"/><path d="M5 22l7-6 5 4 4-3 6 5"/></svg>
+            </span>
+            <h3 class="svc__title">Home Styling</h3>
+            <p class="svc__text">Create a coordinated, welcoming look that flows from room to room and feels unmistakably yours.</p>
+            <a class="svc__link" href="#contact" data-project="Home styling">Learn more <span aria-hidden="true">→</span><span class="visually-hidden"> about home styling</span></a>
+          </article>
+
+          <article class="svc svc--sage reveal">
+            <span class="svc__no" aria-hidden="true">03</span>
+            <span class="svc__icon" aria-hidden="true">
+              <svg viewBox="0 0 32 32"><path d="M11 5h10l3 10H8z"/><path d="M16 15v10"/><path d="M11 27h10"/></svg>
+            </span>
+            <h3 class="svc__title">Furniture &amp; Décor Styling</h3>
+            <p class="svc__text">Make the most of what you already own — rearranged, layered and styled for a fresh, considered feel.</p>
+            <a class="svc__link" href="#contact" data-project="Home styling">Learn more <span aria-hidden="true">→</span><span class="visually-hidden"> about furniture and décor styling</span></a>
+          </article>
+
+          <article class="svc svc--sand reveal">
+            <span class="svc__no" aria-hidden="true">04</span>
+            <span class="svc__icon" aria-hidden="true">
+              <svg viewBox="0 0 32 32"><path d="M4 6h3l3 14h13l2-9H9"/><circle cx="12" cy="25" r="1.7"/><circle cx="22" cy="25" r="1.7"/></svg>
+            </span>
+            <h3 class="svc__title">Décor Sourcing</h3>
+            <p class="svc__text">Cushions, artwork, lighting, rugs and accessories — sourced to suit your space, style and budget.</p>
+            <a class="svc__link" href="#contact" data-project="Décor sourcing">Learn more <span aria-hidden="true">→</span><span class="visually-hidden"> about décor sourcing</span></a>
+          </article>
+
+          <article class="svc svc--rose reveal">
+            <span class="svc__no" aria-hidden="true">05</span>
+            <span class="svc__icon" aria-hidden="true">
+              <svg viewBox="0 0 32 32"><path d="M5 15L16 5l11 10"/><path d="M8 13v14h16V13"/><path d="M13 27v-7h6v7"/></svg>
+            </span>
+            <h3 class="svc__title">Short-Stay Styling</h3>
+            <p class="svc__text">Make Airbnb and short-stay properties more inviting, memorable and photo-ready for guests.</p>
+            <a class="svc__link" href="#contact" data-project="Short-stay styling">Learn more <span aria-hidden="true">→</span><span class="visually-hidden"> about short-stay styling</span></a>
+          </article>
+
+          <article class="svc svc--cream reveal">
+            <span class="svc__no" aria-hidden="true">06</span>
+            <span class="svc__icon" aria-hidden="true">
+              <svg viewBox="0 0 32 32"><path d="M6 7h20a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1H14l-6 5v-5H6a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1z"/><path d="M11 13h10M11 17h6"/></svg>
+            </span>
+            <h3 class="svc__title">Styling Consultation</h3>
+            <p class="svc__text">Practical ideas tailored to your space and budget — the ideal first step for any project.</p>
+            <a class="svc__link" href="#contact" data-project="Styling consultation">Learn more <span aria-hidden="true">→</span><span class="visually-hidden"> about styling consultations</span></a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         WHY STYLED BY GRACE — dark editorial section
+         ============================================================ -->
+    <section class="section why" id="why" aria-labelledby="why-title">
+      <div class="container why__grid">
+
+        <div class="why__media reveal">
+          <div class="why__frame">
+            <!-- Placeholder image: replace with your own photography -->
+            <img src="assets/gallery/living-cream.jpg" width="1200" height="879" loading="lazy"
+                 alt="Bright living room with a cream sofa, woven mirrors, dried grasses and a sheepskin rug">
+          </div>
+          <p class="why__caption">Sample imagery — replace with Grace’s own project photography.</p>
+        </div>
+
+        <div class="why__content">
+          <p class="eyebrow eyebrow--light reveal">Why Styled by Grace</p>
+          <h2 class="display display--light reveal" id="why-title">Beautiful for photographs is easy. <em>Beautiful for real life</em> takes more thought.</h2>
+          <p class="why__lead reveal">A room should look lovely — and also be somewhere you can put your feet up, host friends, and get on with your week. That’s the standard every space is styled to.</p>
+
+          <dl class="principles">
+            <div class="principle reveal">
+              <dt><span class="principle__no">i.</span> Style</dt>
+              <dd>A cohesive look with personality — layered colour, texture and pieces that feel like you, not a showroom.</dd>
+            </div>
+            <div class="principle reveal">
+              <dt><span class="principle__no">ii.</span> Comfort</dt>
+              <dd>Soft, welcoming rooms you’ll actually want to sit in, with warmth in every corner.</dd>
+            </div>
+            <div class="principle reveal">
+              <dt><span class="principle__no">iii.</span> Function</dt>
+              <dd>Furniture placement and flow that suit how you really use each space, every single day.</dd>
+            </div>
+            <div class="principle reveal">
+              <dt><span class="principle__no">iv.</span> Realistic budgets</dt>
+              <dd>We start with what you own, then add only what earns its place — so the result is achievable.</dd>
+            </div>
+          </dl>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============================================================
+         PORTFOLIO / INSPIRATION
+         To swap images: replace the files in assets/gallery/ (keep names) or edit src + alt.
+         Categories: data-cat="living bedrooms styling stay decor ba" (space separated, can combine)
+         ============================================================ -->
+    <section class="section portfolio" id="portfolio" aria-labelledby="portfolio-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <p class="eyebrow">Portfolio &amp; inspiration</p>
+            <h2 class="display" id="portfolio-title">Rooms that feel as good <em>as they look</em></h2>
+          </div>
+          <p class="section-head__aside">Browse the look and feel of a Styled by Grace space — soft palettes, natural textures and homes made for living.</p>
+        </div>
+
+        <div class="filters reveal" role="group" aria-label="Filter portfolio by category">
+          <button class="chip is-active" type="button" data-filter="all" aria-pressed="true">All</button>
+          <button class="chip" type="button" data-filter="living" aria-pressed="false">Living Rooms</button>
+          <button class="chip" type="button" data-filter="bedrooms" aria-pressed="false">Bedrooms</button>
+          <button class="chip" type="button" data-filter="styling" aria-pressed="false">Styling</button>
+          <button class="chip" type="button" data-filter="stay" aria-pressed="false">Short-Stay</button>
+          <button class="chip" type="button" data-filter="decor" aria-pressed="false">Décor</button>
+          <button class="chip" type="button" data-filter="ba" aria-pressed="false">Before &amp; After</button>
+        </div>
+
+        <div class="gallery" id="gallery">
+
+          <figure class="tile" data-cat="living styling">
+            <button class="tile__btn" type="button" aria-label="View larger: Living room styling">
+              <img src="assets/img/living-room.jpg" width="1086" height="1252" loading="lazy"
+                   alt="Softly styled living room with a cream sofa, blush cushions and a round timber coffee table">
+              <span class="tile__cap"><b>Living Rooms</b> Cream, blush &amp; timber</span>
+            </button>
+          </figure>
+
+          <figure class="tile" data-cat="living styling">
+            <button class="tile__btn" type="button" aria-label="View larger: Layered neutral living room">
+              <img src="assets/gallery/living-cream.jpg" width="1200" height="879" loading="lazy"
+                   alt="Bright living room with a cream sofa, woven mirrors, dried grasses and a sheepskin rug">
+              <span class="tile__cap"><b>Living Rooms</b> Layered neutrals</span>
+            </button>
+          </figure>
+
+          <figure class="tile" data-cat="bedrooms decor">
+            <button class="tile__btn" type="button" aria-label="View larger: Bedroom styling">
+              <img src="assets/img/bedroom.jpg" width="952" height="564" loading="lazy"
+                   alt="Calm bedroom with white linen, a blush knit throw and a timber bedside table">
+              <span class="tile__cap"><b>Bedrooms</b> Soft linen &amp; blush</span>
+            </button>
+          </figure>
+
+          <figure class="tile" data-cat="decor">
+            <button class="tile__btn" type="button" aria-label="View larger: Décor detail with yellow armchair">
+              <img src="assets/gallery/decor-chair-yellow.jpg" width="1000" height="882" loading="lazy"
+                   alt="Mustard armchair beside a brass floor lamp and framed abstract artwork">
+              <span class="tile__cap"><b>Décor</b> A single colour moment</span>
+            </button>
+          </figure>
+
+          <figure class="tile" data-cat="living">
+            <button class="tile__btn" type="button" aria-label="View larger: Calm living room">
+              <img src="assets/gallery/living-soft.jpg" width="1100" height="1650" loading="lazy"
+                   alt="Pale living room with a soft grey sofa, a textured pouf and a round timber coffee table">
+              <span class="tile__cap"><b>Living Rooms</b> Quiet &amp; textural</span>
+            </button>
+          </figure>
+
+          <figure class="tile" data-cat="stay bedrooms">
+            <button class="tile__btn" type="button" aria-label="View larger: Short-stay bedroom">
+              <img src="assets/gallery/stay-hotel.jpg" width="1200" height="800" loading="lazy"
+                   alt="Light, hotel-style bedroom with crisp white bedding">
+              <span class="tile__cap"><b>Short-Stay</b> Guest-ready bedroom</span>
+            </button>
+          </figure>
+
+          <!-- Before & After slider — PLACEHOLDER PAIR, replace both images with a real project -->
+          <figure class="tile tile--ba" data-cat="ba">
+            <div class="ba" data-ba>
+              <img class="ba__after" src="assets/gallery/after-sample.jpg" width="1200" height="675" loading="lazy"
+                   alt="After: airy living room with a light sectional and round coffee table">
+              <div class="ba__before-wrap">
+                <img class="ba__before" src="assets/gallery/before-sample.jpg" width="1200" height="801" loading="lazy"
+                     alt="Before: sparsely furnished room with a small black sofa and white drawers">
+              </div>
+              <span class="ba__label ba__label--before">Before</span>
+              <span class="ba__label ba__label--after">After</span>
+              <span class="ba__handle" aria-hidden="true"></span>
+              <input class="ba__range" type="range" min="0" max="100" value="50" aria-label="Drag to compare before and after">
+            </div>
+            <figcaption class="tile__cap tile__cap--static"><b>Before &amp; After</b> Sample layout — replace with a real project</figcaption>
+          </figure>
+
+          <figure class="tile" data-cat="decor living">
+            <button class="tile__btn" type="button" aria-label="View larger: Rattan lighting and layered rug">
+              <img src="assets/gallery/decor-rattan.jpg" width="1100" height="1100" loading="lazy"
+                   alt="Living room with rattan pendant lights, a mustard pouf and a layered vintage-style rug">
+              <span class="tile__cap"><b>Décor</b> Lighting, rugs &amp; layers</span>
+            </button>
+          </figure>
+
+          <figure class="tile" data-cat="bedrooms styling">
+            <button class="tile__btn" type="button" aria-label="View larger: Sage bedroom styling">
+              <img src="assets/gallery/bedroom-sage.jpg" width="1100" height="1100" loading="lazy"
+                   alt="Bedroom with sage bedding, rust cushions, hanging plants and a gallery wall">
+              <span class="tile__cap"><b>Bedrooms</b> Sage &amp; warm accents</span>
+            </button>
+          </figure>
+
+          <figure class="tile" data-cat="stay bedrooms">
+            <button class="tile__btn" type="button" aria-label="View larger: Bright short-stay bedroom">
+              <img src="assets/gallery/stay-bright.jpg" width="1200" height="800" loading="lazy"
+                   alt="Calm white bedroom with a soft grey rug and a black accent bench">
+              <span class="tile__cap"><b>Short-Stay</b> Fresh, photo-ready</span>
+            </button>
+          </figure>
+
+          <figure class="tile" data-cat="living decor">
+            <button class="tile__btn" type="button" aria-label="View larger: Living room with blush armchairs">
+              <img src="assets/gallery/living-blush.jpg" width="1200" height="800" loading="lazy"
+                   alt="Living room with a tan sofa, blush armchairs, layered plants and a macramé wall hanging">
+              <span class="tile__cap"><b>Living Rooms</b> Blush &amp; leather</span>
+            </button>
+          </figure>
+
+          <figure class="tile" data-cat="decor styling">
+            <button class="tile__btn" type="button" aria-label="View larger: Décor vignette">
+              <img src="assets/gallery/decor-chair-white.jpg" width="1000" height="1502" loading="lazy"
+                   alt="Cream tufted chair against a soft pale wall">
+              <span class="tile__cap"><b>Décor</b> The finishing piece</span>
+            </button>
+          </figure>
+
+        </div>
+
+        <p class="gallery__empty" id="galleryEmpty" hidden>Nothing in this category yet — check back soon.</p>
+
+        <div class="portfolio__foot reveal">
+          <p class="portfolio__note">Sample imagery shown, including the flyer photography. Grace’s own client projects will be added here.</p>
+          <a class="link-arrow" href="#contact" data-project="Home styling">Love a look? Tell us about your space <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         PROCESS
+         ============================================================ -->
+    <section class="section process" id="process" aria-labelledby="process-title">
+      <div class="container">
+        <div class="section-head section-head--center reveal">
+          <p class="eyebrow">How it works</p>
+          <h2 class="display" id="process-title">Four simple steps to <em>a home you love</em></h2>
+        </div>
+
+        <ol class="steps">
+          <li class="step reveal">
+            <span class="step__no" aria-hidden="true">01</span>
+            <h3 class="step__title">Tell us about your space</h3>
+            <p>Share photos, your budget and how you live. We’ll talk through what’s working, what isn’t, and what matters most to you.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__no" aria-hidden="true">02</span>
+            <h3 class="step__title">Create your styling direction</h3>
+            <p>A practical plan shaped around your budget — layout, colour, what to keep and what to add.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__no" aria-hidden="true">03</span>
+            <h3 class="step__title">Style, source &amp; transform</h3>
+            <p>Furniture is repositioned, décor is sourced and everything is styled into place — cushions to artwork to lighting.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__no" aria-hidden="true">04</span>
+            <h3 class="step__title">Enjoy your home</h3>
+            <p>Step into a space that looks beautiful, feels comfortable and works for everyday life.</p>
+          </li>
+        </ol>
+
+        <div class="process__cta reveal">
+          <a class="btn btn--primary" href="#contact" data-project="Styling consultation">Book a Styling Consultation</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         BUDGET MESSAGE — honey tone nods to the "huge budget" social card
+         ============================================================ -->
+    <section class="budget" aria-labelledby="budget-title">
+      <div class="container budget__grid">
+        <div class="budget__main reveal">
+          <p class="eyebrow eyebrow--dark">The Styled by Grace difference</p>
+          <h2 class="budget__title" id="budget-title">Your home doesn’t need a huge budget to look <em>beautiful.</em></h2>
+          <p class="budget__lead">Good styling isn’t about spending more. It’s about thoughtful choices — where things sit, how colours and textures talk to each other, and which few pieces are genuinely worth buying.</p>
+          <a class="btn btn--dark" href="#contact" data-project="Styling consultation">Let’s Work With What You Have</a>
+        </div>
+
+        <ul class="budget__moves reveal">
+          <li><span>1</span><div><strong>Rearrange before you replace</strong>Often the biggest change is simply moving what you already own.</div></li>
+          <li><span>2</span><div><strong>Layer colour and texture with intent</strong>Cushions, throws, art and lighting do more than you’d expect.</div></li>
+          <li><span>3</span><div><strong>Buy fewer, better finishing pieces</strong>Spend where it matters, and skip what doesn’t earn its place.</div></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         TESTIMONIALS — PLACEHOLDERS. Replace text, name and suburb, then delete the "tag" line.
+         ============================================================ -->
+    <section class="section testimonials" aria-labelledby="testimonials-title">
+      <div class="container">
+        <div class="section-head section-head--center reveal">
+          <p class="eyebrow">Kind words</p>
+          <h2 class="display" id="testimonials-title">What clients <em>say</em></h2>
+        </div>
+
+        <div class="quotes">
+          <figure class="quote reveal">
+            <p class="quote__tag">Example testimonial — replace with real client feedback.</p>
+            <blockquote><p>“Add a short, genuine quote from a client here about how their room or home felt before and after styling.”</p></blockquote>
+            <figcaption><b>Client name</b> · Suburb, Sydney</figcaption>
+          </figure>
+          <figure class="quote reveal">
+            <p class="quote__tag">Example testimonial — replace with real client feedback.</p>
+            <blockquote><p>“Add a short, genuine quote about working within a realistic budget, or the experience of working with Grace.”</p></blockquote>
+            <figcaption><b>Client name</b> · Suburb, Sydney</figcaption>
+          </figure>
+          <figure class="quote reveal">
+            <p class="quote__tag">Example testimonial — replace with real client feedback.</p>
+            <blockquote><p>“Add a short, genuine quote from a short-stay host or a home seller about how the styling helped their property.”</p></blockquote>
+            <figcaption><b>Client name</b> · Suburb, Sydney</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         FAQ — native <details> for accessibility; script.js adds one-open-at-a-time
+         ============================================================ -->
+    <section class="section faq" id="faq" aria-labelledby="faq-title">
+      <div class="container faq__grid">
+        <div class="faq__intro reveal">
+          <p class="eyebrow">Good to know</p>
+          <h2 class="display" id="faq-title">Frequently asked <em>questions</em></h2>
+          <p>Can’t find what you’re looking for? Call or message and we’ll happily help.</p>
+          <a class="link-arrow" href="tel:+61468359978">Call 0468 359 978 <span aria-hidden="true">→</span></a>
+        </div>
+
+        <div class="faq__list reveal">
+          <details class="qa">
+            <summary>What does a styling consultation include?</summary>
+            <div class="qa__body"><p>A relaxed, practical conversation about your space, how you live and your budget. You’ll come away with tailored ideas on layout, colour, furniture placement and décor. The exact inclusions are confirmed when you enquire, so they suit your project.</p></div>
+          </details>
+          <details class="qa">
+            <summary>Do I need to buy new furniture?</summary>
+            <div class="qa__body"><p>Not necessarily. Often the biggest improvement comes from rearranging and restyling what you already have. If something is genuinely missing, we’ll suggest a small number of well-chosen pieces rather than a full refit.</p></div>
+          </details>
+          <details class="qa">
+            <summary>Can you work with my existing furniture?</summary>
+            <div class="qa__body"><p>Yes — it’s the heart of what we do. Furniture &amp; décor styling is about making the most of what you already own, then layering in the finishing touches.</p></div>
+          </details>
+          <details class="qa">
+            <summary>Do you work with rental properties?</summary>
+            <div class="qa__body"><p>Yes. Styling relies on placement, colour, textiles, art and lighting, so it can transform a rental without permanent changes. If an idea involves your walls or fixtures, check your lease first.</p></div>
+          </details>
+          <details class="qa">
+            <summary>Do you style Airbnb properties?</summary>
+            <div class="qa__body"><p>Yes. Short-stay styling makes Airbnb and other short-stay properties more inviting for guests and more photo-ready for your listing.</p></div>
+          </details>
+          <details class="qa">
+            <summary>Do you provide décor sourcing?</summary>
+            <div class="qa__body"><p>Yes. We can source cushions, artwork, lighting, rugs and accessories chosen to suit your style, your space and your budget.</p></div>
+          </details>
+          <details class="qa">
+            <summary>What areas do you service?</summary>
+            <div class="qa__body"><p>Sydney &amp; Surrounds. If you’re not sure whether you’re within range, just ask.</p></div>
+          </details>
+          <details class="qa">
+            <summary>How much does styling cost?</summary>
+            <div class="qa__body"><p>It depends on the size and scope of your project — a single-room refresh is very different to a whole-home restyle. Get in touch with a few details and you’ll receive advice and a quote tailored to your space and budget.</p></div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         CONTACT / ENQUIRY
+         ============================================================ -->
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <div class="container contact__grid">
+
+        <div class="contact__info reveal">
+          <p class="eyebrow">Enquire</p>
+          <h2 class="display" id="contact-title">Let’s create <span class="script">a home you love.</span></h2>
+          <p class="contact__lead">Tell us a little about your space and what you’d like to change. We’ll come back to you with practical ideas to suit your budget.</p>
+
+          <a class="phone-cta" href="tel:+61468359978">
+            <span class="phone-cta__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg>
+            </span>
+            <span><small>Call or text</small><strong>0468 359 978</strong></span>
+          </a>
+
+          <ul class="contact__facts">
+            <li>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-6.2 7-11.2A7 7 0 0 0 5 9.8C5 14.8 12 21 12 21z"/><circle cx="12" cy="10" r="2.5"/></svg>
+              Sydney &amp; Surrounds
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v11H9l-5 4z"/></svg>
+              Prefer to message? <a href="sms:+61468359978">Text 0468 359 978</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="contact__form-wrap reveal">
+          <noscript>
+            <h3 class="form__title">Send an enquiry</h3>
+            <p>This form needs JavaScript. Please call or text us on <a href="tel:+61468359978">0468 359 978</a> and tell us about your space.</p>
+          </noscript>
+          <!-- No backend: on submit, script.js builds a text message to +61468359978 and opens the visitor's messaging app -->
+          <form class="form" id="enquiryForm" novalidate>
+            <h3 class="form__title">Send an enquiry</h3>
+
+            <div class="field">
+              <label for="f-name">Name <span class="req" aria-hidden="true">*</span></label>
+              <input id="f-name" name="name" type="text" autocomplete="name" required aria-describedby="e-name">
+              <p class="field__error" id="e-name" role="alert"></p>
+            </div>
+
+            <div class="field-row">
+              <div class="field">
+                <label for="f-email">Email <span class="req" aria-hidden="true">*</span></label>
+                <input id="f-email" name="email" type="email" autocomplete="email" inputmode="email" required aria-describedby="e-email">
+                <p class="field__error" id="e-email" role="alert"></p>
+              </div>
+              <div class="field">
+                <label for="f-phone">Phone <span class="opt">(optional)</span></label>
+                <input id="f-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" aria-describedby="e-phone">
+                <p class="field__error" id="e-phone" role="alert"></p>
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="f-project">Project type <span class="req" aria-hidden="true">*</span></label>
+              <div class="select">
+                <select id="f-project" name="project" required aria-describedby="e-project">
+                  <option value="">Select a project type</option>
+                  <option>Room makeover</option>
+                  <option>Home styling</option>
+                  <option>Décor sourcing</option>
+                  <option>Short-stay styling</option>
+                  <option>Styling consultation</option>
+                  <option>Other</option>
+                </select>
+              </div>
+              <p class="field__error" id="e-project" role="alert"></p>
+            </div>
+
+            <div class="field">
+              <label for="f-message">Message <span class="opt">(optional)</span></label>
+              <textarea id="f-message" name="message" rows="4" placeholder="Which room or property? What would you like to change? Any budget in mind?"></textarea>
+            </div>
+
+            <button class="btn btn--primary btn--block" type="submit">Text My Enquiry</button>
+            <p class="form__fine">This opens your messaging app with your enquiry ready to text to 0468 359 978 — you then press Send. Prefer to talk? <a href="tel:+61468359978">Call 0468 359 978</a>.</p>
+          </form>
+
+          <!-- Shown after a valid submit. It never claims the enquiry was sent: only the visitor's own messaging app can send it. -->
+          <div class="form-success" id="formSuccess" tabindex="-1" hidden>
+            <span class="form-success__tick" aria-hidden="true">✉</span>
+            <h3>Your message is ready<span id="successName"></span></h3>
+            <p id="successText">Please press <strong>Send</strong> in your messaging app to send your enquiry to Styled by Grace. It has <strong>not</strong> been sent yet.</p>
+            <div class="form-success__actions">
+              <a class="btn btn--primary" id="successSms" href="sms:+61468359978">Open my messaging app</a>
+              <a class="btn btn--ghost" id="successCall" href="tel:+61468359978">Call 0468 359 978</a>
+            </div>
+            <div class="form-success__copy">
+              <label for="enquiryText">If your messaging app doesn’t open (for example on a computer), copy this message and text it to <a href="tel:+61468359978">0468 359 978</a>, or call us:</label>
+              <textarea id="enquiryText" readonly rows="8"></textarea>
+              <button class="btn btn--ghost btn--sm" type="button" id="copyEnquiry">Copy message</button>
+              <p class="form-success__status" id="copyStatus" role="status"></p>
+            </div>
+            <button class="link-arrow link-arrow--btn" type="button" id="formReset">Edit my enquiry</button>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <footer class="site-footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <a class="brand brand--light" href="#top">
+          <img class="brand__logo" src="assets/img/logo.png" alt="Styled by Grace – Home Styling &amp; Room Makeovers" width="282" height="420">
+        </a>
+        <p class="footer__tag">Beautiful spaces. A happier you.</p>
+        <p class="footer__meta">Sydney &amp; Surrounds<br><a href="tel:+61468359978">0468 359 978</a></p>
+      </div>
+
+      <nav class="footer__nav" aria-label="Footer">
+        <h2 class="footer__h">Explore</h2>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#process">Process</a></li>
+          <li><a href="#faq">FAQs</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer__nav">
+        <h2 class="footer__h">Services</h2>
+        <ul>
+          <li><a href="#services">Room makeovers</a></li>
+          <li><a href="#services">Home styling</a></li>
+          <li><a href="#services">Décor sourcing</a></li>
+          <li><a href="#services">Short-stay styling</a></li>
+          <li><a href="#contact" data-project="Styling consultation">Styling consultation</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__nav">
+        <h2 class="footer__h">Follow along</h2>
+        <!-- Social placeholders: replace each href="#" with the real profile URL -->
+        <ul class="social">
+          <li><a href="#" aria-label="Instagram (link coming soon)">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r=".6"/></svg>Instagram</a></li>
+          <li><a href="#" aria-label="Facebook (link coming soon)">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h3V4h-3a4 4 0 0 0-4 4v3H7v4h3v6h4v-6h3l1-4h-4V8z"/></svg>Facebook</a></li>
+          <li><a href="#" aria-label="Pinterest (link coming soon)">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M11 8.5c2.6-.7 4.5.8 4 3.2-.4 2-2 3-3.3 2.4M11 9l-2 8.5"/></svg>Pinterest</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container footer__base">
+      <p>© <span id="year">2026</span> Styled by Grace – Home Styling &amp; Room Makeovers. All rights reserved.</p>
+      <p class="footer__values">Style · Comfort · Function · Home</p>
+    </div>
+  </footer>
+
+  <!-- Mobile sticky call / enquire bar (appears after the hero) -->
+  <div class="mobile-bar" id="mobileBar" aria-label="Quick contact">
+    <a class="btn btn--ghost btn--sm" href="tel:+61468359978">Call</a>
+    <a class="btn btn--primary btn--sm" href="#contact" data-project="Styling consultation">Book a Consultation</a>
+  </div>
+
+  <!-- Lightbox for portfolio images -->
+  <dialog class="lightbox" id="lightbox" aria-label="Portfolio image">
+    <button class="lightbox__close" type="button" id="lbClose" aria-label="Close image">×</button>
+    <button class="lightbox__nav lightbox__nav--prev" type="button" id="lbPrev" aria-label="Previous image">‹</button>
+    <figure class="lightbox__fig">
+      <img id="lbImg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="">
+      <figcaption id="lbCap"></figcaption>
+    </figure>
+    <button class="lightbox__nav lightbox__nav--next" type="button" id="lbNext" aria-label="Next image">›</button>
+  </dialog>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
