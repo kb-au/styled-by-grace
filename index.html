@@ -49,6 +49,7 @@
     "alternateName": "Styled by Grace",
     "description": "Home styling, room makeovers, décor sourcing, short-stay styling and styling consultations in Sydney & Surrounds.",
     "slogan": "Beautiful spaces. A happier you.",
+    "sameAs": ["https://shopstyledbygrace.com/"],
     "telephone": "+61468359978",
     "areaServed": { "@type": "AdministrativeArea", "name": "Sydney & Surrounds, New South Wales, Australia" },
     "address": { "@type": "PostalAddress", "addressRegion": "NSW", "addressCountry": "AU" },
@@ -83,6 +84,7 @@
           <li><a href="#services" data-spy="services">Services</a></li>
           <li><a href="#portfolio" data-spy="portfolio">Portfolio</a></li>
           <li><a href="#process" data-spy="process">Process</a></li>
+          <li><a href="#shop" data-spy="shop">Shop</a></li>
           <li><a href="#faq" data-spy="faq">FAQs</a></li>
           <li><a href="#contact" data-spy="contact">Contact</a></li>
         </ul>
@@ -548,6 +550,39 @@
     </section>
 
     <!-- ============================================================
+         ONLINE BOUTIQUE — cross-link to the original Styled by Grace shop (https://shopstyledbygrace.com/).
+         The wording comes from that site itself ("online boutique", "clothing"). Only collections that are
+         live on the shop are linked (its own menu also lists some that currently 404 — those are left out).
+         Opens in a new tab so visitors don't lose this page. Update the links here if the shop's collections change.
+         ============================================================ -->
+    <section class="section shop" id="shop" aria-labelledby="shop-title">
+      <div class="container shop__grid">
+
+        <div class="shop__intro reveal">
+          <p class="eyebrow">The online boutique</p>
+          <h2 class="display" id="shop-title">Shop the <em>Styled by Grace</em> boutique</h2>
+          <p class="shop__lead">Styled by Grace is also an online clothing boutique — dresses, tops, rompers and sets, curated to help you feel comfortable, confident and uniquely you. Browse new arrivals, best sellers and sale pieces on the original Styled by Grace site.</p>
+
+          <div class="shop__actions">
+            <a class="btn btn--primary" href="https://shopstyledbygrace.com/" target="_blank" rel="noopener">Visit the Boutique <span aria-hidden="true">↗</span><span class="visually-hidden"> (opens shopstyledbygrace.com in a new tab)</span></a>
+            <a class="btn btn--ghost" href="https://shopstyledbygrace.com/collections/new-arrivals" target="_blank" rel="noopener">See New Arrivals <span aria-hidden="true">↗</span><span class="visually-hidden"> (opens in a new tab)</span></a>
+          </div>
+          <p class="shop__note">Opens <strong>shopstyledbygrace.com</strong> in a new tab. Prices, shipping and returns are shown on the boutique site.</p>
+        </div>
+
+        <ul class="shop__list reveal" aria-label="Boutique collections">
+          <li><a href="https://shopstyledbygrace.com/collections/dresses-2" target="_blank" rel="noopener"><span class="shop__name">Dresses</span><span class="shop__desc">Mini, midi &amp; maxi</span><span class="shop__go" aria-hidden="true">↗</span><span class="visually-hidden">(opens in a new tab)</span></a></li>
+          <li><a href="https://shopstyledbygrace.com/collections/tops" target="_blank" rel="noopener"><span class="shop__name">Tops</span><span class="shop__desc">Short sleeve styles</span><span class="shop__go" aria-hidden="true">↗</span><span class="visually-hidden">(opens in a new tab)</span></a></li>
+          <li><a href="https://shopstyledbygrace.com/collections/rompers-sets" target="_blank" rel="noopener"><span class="shop__name">Rompers + Sets</span><span class="shop__desc">Rompers and matching sets</span><span class="shop__go" aria-hidden="true">↗</span><span class="visually-hidden">(opens in a new tab)</span></a></li>
+          <li><a href="https://shopstyledbygrace.com/collections/new-arrivals" target="_blank" rel="noopener"><span class="shop__name">New Arrivals</span><span class="shop__desc">The latest pieces</span><span class="shop__go" aria-hidden="true">↗</span><span class="visually-hidden">(opens in a new tab)</span></a></li>
+          <li><a href="https://shopstyledbygrace.com/collections/best-sellers" target="_blank" rel="noopener"><span class="shop__name">Best Sellers</span><span class="shop__desc">The most popular pieces</span><span class="shop__go" aria-hidden="true">↗</span><span class="visually-hidden">(opens in a new tab)</span></a></li>
+          <li><a href="https://shopstyledbygrace.com/collections/sale" target="_blank" rel="noopener"><span class="shop__name">Sale</span><span class="shop__desc">Discounted pieces</span><span class="shop__go" aria-hidden="true">↗</span><span class="visually-hidden">(opens in a new tab)</span></a></li>
+        </ul>
+
+      </div>
+    </section>
+
+    <!-- ============================================================
          FAQ — native <details> for accessibility; script.js adds one-open-at-a-time
          ============================================================ -->
     <section class="section faq" id="faq" aria-labelledby="faq-title">
@@ -672,7 +707,7 @@
 
             <div class="field">
               <label for="f-message">Message <span class="opt">(optional)</span></label>
-              <textarea id="f-message" name="message" rows="4" placeholder="Which room or property? What would you like to change? "></textarea>
+              <textarea id="f-message" name="message" rows="4" placeholder="Which room or property? What would you like to change? Any budget in mind?"></textarea>
             </div>
 
             <button class="btn btn--primary btn--block" type="submit">Text My Enquiry</button>
@@ -724,6 +759,7 @@
           <li><a href="#process">Process</a></li>
           <li><a href="#faq">FAQs</a></li>
           <li><a href="#contact">Contact</a></li>
+          <li><a href="https://shopstyledbygrace.com/" target="_blank" rel="noopener">Online boutique <span aria-hidden="true">↗</span><span class="visually-hidden">(opens in a new tab)</span></a></li>
         </ul>
       </nav>
 

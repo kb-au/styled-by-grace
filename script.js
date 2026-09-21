@@ -60,7 +60,7 @@
   // Scroll-spy: highlight the nav link for the section in the middle of the viewport
   var spyMap = {
     hero: 'top', about: 'about', services: 'services', why: 'about', portfolio: 'portfolio',
-    process: 'process', budget: 'process', testimonials: 'process', faq: 'faq', contact: 'contact'
+    process: 'process', budget: 'process', testimonials: 'process', shop: 'shop', faq: 'faq', contact: 'contact'
   };
   function setActiveLink(key) {
     $$('.nav__list a').forEach(function (a) {
@@ -72,7 +72,7 @@
   if ('IntersectionObserver' in window) {
     var spyTargets = {
       hero: $('.hero'), about: $('#about'), services: $('#services'), why: $('#why'), portfolio: $('#portfolio'),
-      process: $('#process'), budget: $('.budget'), testimonials: $('.testimonials'), faq: $('#faq'), contact: $('#contact')
+      process: $('#process'), budget: $('.budget'), testimonials: $('.testimonials'), shop: $('#shop'), faq: $('#faq'), contact: $('#contact')
     };
     var spy = new IntersectionObserver(function (entries) {
       entries.forEach(function (en) {
